@@ -1,0 +1,9 @@
+if page
+    - let i = 1;
+    ul#pagination
+        li Take me to page: 
+        while i <= totalPages
+            li
+                a(
+                    href=`/books/list/${i}` 
+                    class= (i == page) ? 'active' : 'inactive' )= i++ 

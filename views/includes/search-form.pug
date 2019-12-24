@@ -1,0 +1,12 @@
+form#search-form(action="/books/search-results" method="post")
+    label(for="category") Search By
+    select#category(name="category")
+        option(value="title") Title
+        option(value="author") Author
+        option(value="genre") Genre
+        option(value="year") Published Year
+    input#keyword(type="text" name="keyword" placeholder="Search...")
+    input#from(type="text" name="from" placeholder="From...")
+    input#to(type="text" name="to" placeholder="To...")
+    span#alert please enter numeric values
+    input(type="submit" value="Go!")

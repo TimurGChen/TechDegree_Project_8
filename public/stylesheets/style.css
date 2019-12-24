@@ -95,3 +95,32 @@ input[type=text] {
 .error {
   color: rgb(236, 15, 15);
 }
+
+#search-form {
+  white-space: nowrap;
+  overflow-x: auto;
+  background: #E7E7E7;
+  padding: 1em;
+}
+
+#pagination {
+  white-space: nowrap;
+  overflow-x: auto;
+  background: #E7E7E7;
+  padding: 1em;
+}
+
+#pagination > li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.active {
+  font-weight: bolder;
+  color: rgb(0, 44, 11);
+}
+
+#alert {
+  color: rgb(236, 15, 15);
+  padding-left: 1em;
+}

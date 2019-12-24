@@ -1,0 +1,30 @@
+{
+  "name": "TechDegree_Project_8",
+  "version": "1.0.0",
+  "description": "SQL Library Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurGChen/TechDegree_Project_8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimurGChen/TechDegree_Project_8/issues"
+  },
+  "homepage": "https://github.com/TimurGChen/TechDegree_Project_8#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1"
+  }
+}
