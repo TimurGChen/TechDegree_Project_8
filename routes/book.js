@@ -80,7 +80,8 @@ router.post('/search-results', asyncHandler( async(req,res) => {
             order: [['title']]
         });
         res.render('index', { title: "Search Results", books});
-}))
+    }
+}));
 
 // GET the create new book form
 router.get('/new', (req, res) => {
