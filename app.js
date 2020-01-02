@@ -13,5 +13,5 @@ app.use(errorRoutes);
 const port = process.env.PORT || 3210;
 
 app.listen(port, () => {
-    console.log('Listening on "localhost:3000/"...');
+    console.log('Listening on "localhost:3210/"...');
 });
