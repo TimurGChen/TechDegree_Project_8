@@ -10,6 +10,8 @@ app.use('/', mainRoutes);
 app.use('/books', bookRoutes);
 app.use(errorRoutes);
 
-app.listen(3000, () => {
+const port = process.env.PORT || 3210;
+
+app.listen(port, () => {
     console.log('Listening on "localhost:3000/"...');
 });
